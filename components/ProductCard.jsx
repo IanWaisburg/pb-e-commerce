@@ -38,7 +38,7 @@ function ProductPlaceholder({ lineName, hasBadges = false }) {
       aria-hidden="true"
     >
       <div className={styles.placeholderMark}>
-        <span className={styles.placeholderBrand}>Sleep</span>
+        <span className={styles.placeholderBrand}>Roller</span>
         <span className={styles.placeholderModel}>{lineName}</span>
       </div>
       <div className={styles.placeholderBase} />
@@ -228,7 +228,7 @@ function AccessoryProductCard({ product, href }) {
         productHref={productHref}
         imageCandidates={imageCandidates}
         imageAlt={product.name}
-        lineName="Sleep"
+        lineName="Roller"
       />
       <div className={styles.contentColumn}>
         <h3 className={styles.name}>{product.name}</h3>

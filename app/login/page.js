@@ -3,7 +3,7 @@ import LoginForm from "./LoginForm";
 import styles from "./login.module.css";
 
 export const metadata = {
-  title: "Iniciar sesión | Sleep",
+  title: "Iniciar sesión | Roller",
 };
 
 export default function LoginPage() {

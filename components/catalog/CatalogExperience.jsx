@@ -480,7 +480,7 @@ export default function CatalogExperience({ products, initialSearchParams = {}, 
         </div>
       ) : (
         <div className={styles.emptyState}>
-          <span className={styles.emptyIcon} aria-hidden="true">Sleep</span>
+          <span className={styles.emptyIcon} aria-hidden="true">Roller</span>
           <h3>No encontramos productos para esta combinación</h3>
           <p>
             Ajustá una respuesta o remové un filtro. El estado actual sigue guardado en la URL para

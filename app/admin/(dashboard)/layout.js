@@ -13,7 +13,7 @@ export default async function AdminDashboardLayout({ children }) {
   return (
     <div className={styles.shell}>
       <header className={styles.header}>
-        <span className={styles.brand}>Sleep Admin</span>
+        <span className={styles.brand}>Roller Admin</span>
         <nav className={styles.nav}>
           <Link href="/admin/productos">Productos</Link>
         </nav>

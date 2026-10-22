@@ -1,28 +1,29 @@
 import "./globals.css";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Archivo, Figtree } from "next/font/google";
 import { CartProvider } from "@/context/CartContext";
 import Navbar from "@/components/Navbar";
 
-const inter = Inter({
+const figtree = Figtree({
   subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-texto",
   weight: ["400", "500", "600", "700"],
 });
 
+const archivo = Archivo({
+  subsets: ["latin"],
+  variable: "--font-titulos",
+  weight: ["700", "800"],
+});
+
 export const metadata = {
-  title: "Sleep — Tu Mejor Descanso",
+  title: "Roller — Colchones y sommiers directo de fábrica",
   description: "Colchones, sommiers, almohadas y accesorios premium con envío gratis a todo el país. 12 cuotas sin interés.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es" suppressHydrationWarning>
-      <body suppressHydrationWarning className={`${inter.variable} ${playfair.variable}`}>
+      <body suppressHydrationWarning className={`${figtree.variable} ${archivo.variable}`}>
         <CartProvider>
           <Navbar />
           {children}

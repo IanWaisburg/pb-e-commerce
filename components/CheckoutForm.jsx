@@ -144,7 +144,7 @@ export default function CheckoutForm({ cart }) {
           {cart.items.map((item) => (
             <div key={item.id} className={styles.summaryItem}>
               <div>
-                <p className={styles.summaryItemName}>{item.product?.name ?? "Producto Sleep"}</p>
+                <p className={styles.summaryItemName}>{item.product?.name ?? "Producto Roller"}</p>
                 <p className={styles.summaryItemMeta}>
                   {item.variant?.title ?? "Único"} · {item.quantity} unidad{item.quantity > 1 ? "es" : ""}
                 </p>

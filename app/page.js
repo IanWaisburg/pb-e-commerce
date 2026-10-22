@@ -54,7 +54,7 @@ export default async function Home() {
           <div className={styles.heroMedia}>
             <Image
               src="/banner-home-cropped.webp"
-              alt="Persona descansando sobre un colchón Sleep"
+              alt="Persona descansando sobre un colchón Roller"
               width={2500}
               height={1300}
               priority
@@ -111,8 +111,14 @@ export default async function Home() {
       <footer className={styles.footer}>
         <div className={styles.footerContent}>
           <div className={styles.footerBrandCol}>
-            <p className={styles.footerBrand}>Sleep</p>
-            <p className={styles.footerTagline}>Tu Mejor Descanso</p>
+            <Image
+              src="/brand/roller-logo-blanco.svg"
+              alt="Roller"
+              width={478}
+              height={286}
+              className={styles.footerBrand}
+            />
+            <p className={styles.footerTagline}>Directo de fábrica</p>
           </div>
           <div className={styles.footerDivider} />
           <div className={styles.footerLinks}>
@@ -136,7 +142,7 @@ export default async function Home() {
         </div>
         <div className={styles.footerBottom}>
           <p className={styles.footerLegal}>
-            © {COPYRIGHT_YEAR} Sleep. Todos los derechos reservados.{" "}
+            © {COPYRIGHT_YEAR} Roller. Todos los derechos reservados.{" "}
             <a
               href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario"
               target="_blank"

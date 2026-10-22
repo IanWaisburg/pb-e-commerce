@@ -45,7 +45,7 @@ function formatAddress(values) {
 function toPreferenceItems(cart) {
   return (cart.items ?? []).map((item) => ({
     id: item.variant?.id ?? item.id,
-    title: item.product?.name ?? "Producto Sleep",
+    title: item.product?.name ?? "Producto Roller",
     description: item.variant?.title ?? undefined,
     quantity: item.quantity,
     currency_id: item.currency ?? cart.currency ?? "ARS",
@@ -121,7 +121,7 @@ export async function createCheckoutPreferenceAction(rawInput) {
     order_id: order.id,
     product_id: item.product?.id,
     variant_id: item.variant?.id,
-    name: item.product?.name ?? "Producto Sleep",
+    name: item.product?.name ?? "Producto Roller",
     variant_title: item.variant?.title ?? null,
     quantity: item.quantity,
     unit_price_cents: item.unit_price_cents ?? 0,
@@ -161,7 +161,7 @@ export async function createCheckoutPreferenceAction(rawInput) {
       failure: `${baseUrl}/checkout/failure?order_id=${order.id}`,
     },
     notification_url: `${baseUrl}/api/payments/mercadopago/webhook`,
-    statement_descriptor: "SLEEP",
+    statement_descriptor: "ROLLER",
     metadata: {
       order_id: order.id,
       cart_id: cart.id,

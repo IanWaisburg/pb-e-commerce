@@ -94,14 +94,14 @@ export default function Navbar() {
         <div className={styles.container}>
           <Link href="/" className={styles.logo} onClick={closeAll}>
             <Image
-              src="/logo.webp"
-              alt="Sleep"
-              width={178}
-              height={85}
+              src="/brand/roller-logo-azul.svg"
+              alt="Roller"
+              width={478}
+              height={286}
               className={styles.logoImage}
               priority
             />
-            <span className={styles.logoTagline}>Tu Mejor Descanso</span>
+            <span className={styles.logoTagline}>Directo de fábrica</span>
           </Link>
 
           <nav className={`${styles.nav} ${menuOpen ? styles.navOpen : ""}`} aria-label="Principal">

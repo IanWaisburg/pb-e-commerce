@@ -18,7 +18,7 @@ function formatPrice(value, currency = "ARS") {
 }
 
 export const metadata = {
-  title: "Mis pedidos | Sleep",
+  title: "Mis pedidos | Roller",
 };
 
 export default async function MisPedidosPage() {

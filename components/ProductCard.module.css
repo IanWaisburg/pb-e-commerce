@@ -14,7 +14,7 @@
 }
 
 .card:hover {
-  border-color: rgba(84, 221, 202, 0.42);
+  border-color: rgba(0, 104, 177, 0.42);
   box-shadow: var(--shadow-md);
 }
 
@@ -27,7 +27,7 @@
 }
 
 .cardOutOfStock {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(245, 248, 246, 0.98));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(234, 242, 250, 0.98));
 }
 
 .cardCarousel {
@@ -54,7 +54,7 @@
   aspect-ratio: 1 / 1;
   overflow: hidden;
   background: #fff;
-  border-bottom: 1px solid rgba(18, 58, 63, 0.06);
+  border-bottom: 1px solid rgba(26, 42, 87, 0.06);
 }
 
 .cardList .imageWrap {
@@ -62,7 +62,7 @@
   height: 100%;
   min-height: 100%;
   border-bottom: none;
-  border-right: 1px solid rgba(18, 58, 63, 0.06);
+  border-right: 1px solid rgba(26, 42, 87, 0.06);
 }
 
 .productImage {
@@ -79,7 +79,7 @@
   align-items: center;
   justify-content: center;
   background:
-    radial-gradient(circle at top left, rgba(84, 221, 202, 0.24), transparent 38%),
+    radial-gradient(circle at top left, rgba(0, 104, 177, 0.24), transparent 38%),
     linear-gradient(180deg, #fbfaf7 0%, #f1ede6 100%);
 }
 
@@ -116,7 +116,7 @@
   width: 76%;
   height: 18px;
   border-radius: 999px;
-  background: rgba(18, 58, 63, 0.08);
+  background: rgba(26, 42, 87, 0.08);
 }
 
 .placeholderMattress {
@@ -126,8 +126,8 @@
   height: 26%;
   border-radius: 18px;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(84, 221, 202, 0.16));
-  border: 1px solid rgba(18, 58, 63, 0.08);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(0, 104, 177, 0.16));
+  border: 1px solid rgba(26, 42, 87, 0.08);
   box-shadow: var(--shadow-sm);
 }
 
@@ -160,7 +160,7 @@
 
 .stockBadge {
   margin-left: auto;
-  background: rgba(18, 58, 63, 0.82);
+  background: rgba(26, 42, 87, 0.82);
   color: #fff;
 }
 
@@ -175,7 +175,7 @@
 
 .primaryAction:focus-visible,
 .mediaLink:focus-visible {
-  outline: 3px solid rgba(84, 221, 202, 0.4);
+  outline: 3px solid rgba(0, 104, 177, 0.4);
   outline-offset: 2px;
 }
 
@@ -220,7 +220,8 @@
 
 .name {
   margin: 0;
-  font-family: var(--font-playfair), "Newsreader", Georgia, serif;
+  font-family: var(--font-titulos), Archivo, "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
   color: var(--color-text-primary);
   font-size: 1.32rem;
   line-height: 1.12;
@@ -272,7 +273,7 @@
 
 .promoBadge {
   max-width: 100%;
-  background: rgba(84, 221, 202, 0.2);
+  background: rgba(0, 104, 177, 0.2);
   color: var(--color-primary-light);
 }
 
@@ -323,7 +324,7 @@
   align-items: center;
   justify-content: center;
   background: var(--color-accent);
-  color: var(--color-primary);
+  color: #fff;
   box-shadow: var(--shadow-accent);
 }
 
@@ -366,7 +367,7 @@
   .cardList .imageWrap {
     aspect-ratio: 1 / 1;
     border-right: none;
-    border-bottom: 1px solid rgba(18, 58, 63, 0.06);
+    border-bottom: 1px solid rgba(26, 42, 87, 0.06);
   }
 }
 

@@ -9,7 +9,7 @@ import { getCustomerSession } from "@/lib/supabase/customer-auth";
 import styles from "./checkout.module.css";
 
 export const metadata = {
-  title: "Checkout | Sleep",
+  title: "Checkout | Roller",
   description: "Completá tus datos y pagá tu compra con Mercado Pago.",
 };
 

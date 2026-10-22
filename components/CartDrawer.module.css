@@ -143,7 +143,7 @@
 .itemImagePlaceholder {
   width: 58px;
   height: 58px;
-  background: linear-gradient(145deg, #eef4f3 0%, #daeae8 100%);
+  background: linear-gradient(145deg, #eaf2fa 0%, #cfe2f4 100%);
   border-radius: var(--radius-sm);
   border: 1px solid var(--color-border-light);
   position: relative;

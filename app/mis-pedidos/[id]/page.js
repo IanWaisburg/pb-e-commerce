@@ -6,7 +6,7 @@ import { getOrderById, serializeOrderRecord } from "@/lib/orders/server";
 import styles from "@/app/checkout/checkout.module.css";
 
 export const metadata = {
-  title: "Detalle de pedido | Sleep",
+  title: "Detalle de pedido | Roller",
 };
 
 export default async function MiPedidoDetailPage({ params }) {

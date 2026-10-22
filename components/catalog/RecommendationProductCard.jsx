@@ -10,7 +10,7 @@ import styles from "./RecommendationProductCard.module.css";
 function RecommendationPlaceholder({ lineName, commercialName }) {
   return (
     <div className={styles.imagePlaceholder} aria-hidden="true">
-      <span className={styles.placeholderBrand}>Sleep</span>
+      <span className={styles.placeholderBrand}>Roller</span>
       <span className={styles.placeholderLine}>{lineName}</span>
       <div className={styles.placeholderBase} />
       <div className={styles.placeholderMattress} />
